@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "totalResults": 6,
+  "articles": [
+    {
+      "source": { "id": "usa-today", "name": "USA Today" },
+      "author": "Ken Alltucker",
+      "title": "Bariatric surgeries drop sharply as people turn to Wegovy, Saxenda for weight loss",
+      "description": "The demand for bariatric operations dropped sharply last year as use of anti-obesity drugs such as Wegovy surged, study finds.",
+      "url": "https://www.usatoday.com/story/news/health/2024/10/25/bariatric-surgery-drops-weight-loss-drugs/75841444007/",
+      "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/10/25/USAT/75847482007-20241022-t-223040-z-293989110-rc-26-x-7-aiwovp-rtrmadp-3-healthusainsurance.JPG?crop=2091,1176,x0,y0&width=2091&height=1176&format=pjpg&auto=webp",
+      "publishedAt": "2024-10-25T22:16:18+00:00",
+      "content": "The demand for weight loss operations dropped sharply last year as the number of people opting for anti-obesity drugs such as Wegovy and Saxenda more than doubled, a study published Friday found.\r\nTh… [+4294 chars]"
+    },
+    {
+      "source": { "id": "medical-news-today", "name": "Medical News Today" },
+      "author": "Kelsey Costa, MS, RDN",
+      "title": "Low-carb diet may eliminate need for drugs in type 2 diabetes",
+      "description": "Adults with mild type 2 diabetes might improve their insulin sensitivity by following a low-carb diet, thus potentially eliminating the need for medication, a new study suggests.",
+      "url": "https://www.medicalnewstoday.com/articles/low-carb-diet-may-eliminate-need-for-drugs-in-type-2-diabetes",
+      "urlToImage": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2024/10/stuffed-peppers-plate-1200-628-facebook.jpg",
+      "publishedAt": "2024-10-25T13:00:00Z",
+      "content": "<ul><li>Beta cells are pancreatic cells responsible for producing and releasing insulin, a hormone that helps control blood sugar levels.</li><li>A recent study indicates that adults with mild type 2… [+8346 chars]"
+    },
+    {
+      "source": { "id": "medical-news-today", "name": "Medical News Today" },
+      "author": "Finn Cohen",
+      "title": "Short bursts of activity may better stimulate weight loss",
+      "description": "Walking in short bursts or climbing stairs can burn 20% to 60% more energy than sustained activity for the same distance, according to a new study.",
+      "url": "https://www.medicalnewstoday.com/articles/short-bursts-of-activity-may-better-stimulate-weight-loss",
+      "urlToImage": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2024/10/bare-feet-stairs-732x549-thumbnail-1.jpg",
+      "publishedAt": "2024-10-23T15:30:00Z",
+      "content": "<ul><li>Walking in short bursts or climbing stairs can burn 20% to 60% more energy than sustained activity for the same distance, a new study has found.</li><li>Researchers at the University of Milan… [+5192 chars]"
+    },
+    {
+      "source": { "id": "medical-news-today", "name": "Medical News Today" },
+      "author": "Robby Berman",
+      "title": "Carbs or fats for breakfast? Which is best for healthy weight in men vs women?",
+      "description": "A recent study suggests that a carbohydrate-rich breakfast for men and a fat-rich breakfast for women may be best for maintaining a healthy weight, due to sex-specific metabolic differences.",
+      "url": "https://www.medicalnewstoday.com/articles/carbs-or-fats-for-breakfast-which-is-best-for-healthy-weight-in-men-vs-women",
+      "urlToImage": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2024/10/couple-breakfast-eating-fruit-1200-628-facebook.jpg",
+      "publishedAt": "2024-10-15T11:00:00Z",
+      "content": "<ul><li>A carbohydrate-rich breakfast for men and a fat-rich breakfast for women gets the day off to a good start, a new study suggests.</li><li>While women store more fat than men, they also burn it… [+5663 chars]"
+    },
+    {
+      "source": { "id": "ars-technica", "name": "Ars Technica" },
+      "author": "Andrew J. Whelton, The Conversation",
+      "title": "Toxic chemicals from Ohio train derailment lingered in buildings for months",
+      "description": "New study offers lessons on how to better protect communities from disasters.",
+      "url": "https://theconversation.com/toxic-chemicals-from-ohio-train-derailment-lingered-in-buildings-for-months-heres-what-our-investigation-found-in-east-palestine-238511",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1247183350-760x380.jpg",
+      "publishedAt": "2024-10-01T18:39:09+00:00",
+      "content": "Enlarge/ This video screenshot released by the US National Transportation Safety Board (NTSB) shows the site of a derailed freight train in East Palestine, Ohio.\r\n31\r\nOn February 3, 2023, a train car… [+4556 chars]"
+    },
+    {
+      "source": { "id": "hacker-news", "name": "Hacker News" },
+      "author": "Seth Michael Larson",
+      "title": "Tests aren’t enough: Case study after adding type hints to urllib3",
+      "description": "Since Python 3.5 was released in 2015 including PEP 484 and the typing module type hints have grown from a nice-to-have to an expectation for popular packages.  To fulfill this expectation our team...",
+      "url": "https://sethmlarson.dev/blog/2021-10-18/tests-arent-enough-case-study-after-adding-types-to-urllib3",
+      "urlToImage": "http://sethmlarson.dev/static/avatar.jpeg",
+      "publishedAt": "2021-10-18T16:52:18.1226466Z",
+      "content": "Since Python 3.5 was released in 2015 including PEP 484 and the typing module type hints have grown from a nice-to-have to an expectation for popular packages. To fulfill this expectation our team ha… [+11991 chars]"
+    }
+  ]
+}
