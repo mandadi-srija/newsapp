@@ -23,7 +23,8 @@ export class News extends Component {
     super(props);
     this.state = {
       articles: [],
-      loading: false,
+      loading: true,
+      // loading: false,
       page: 1,
     };
     document.title=`${this.props.category}-NewsMonkey API`;
@@ -81,7 +82,9 @@ export class News extends Component {
       <div className="container my-3">
         <h1 className="text-center">NewsMonkey - Top Headlines</h1>
         {this.state.loading && <Loading />}
-        <div className="row">
+        
+
+        {/* <div className="row">
           {!this.state.loading && this.state.articles.map((element) => {
             return (
               <div className="col-md-4" key={element.url}>
@@ -98,7 +101,27 @@ export class News extends Component {
               </div>
             );
           })}
-        </div>
+        </div> */}
+
+<div className="row">
+  {!this.state.loading && this.state.articles?.length > 0 ? (
+    this.state.articles.map((element) => (
+      <div className="col-md-4" key={element.url}>
+        <Newsitem
+          title={element.title ? element.title.slice(0, 45) : ""}
+          description={element.description ? element.description.slice(0, 77) : ""}
+          imageurl={element.urlToImage}
+          newsurl={element.url}
+          author={element.author}
+          date={element.publishedAt}
+        />
+      </div>
+    ))
+  ) : (
+    !this.state.loading && <p>No news available</p>
+  )}
+</div>
+
         <div className="container d-flex justify-content-between">
           <button
             disabled={this.state.page <= 1}
