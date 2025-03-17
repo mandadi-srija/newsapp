@@ -63,7 +63,13 @@ export class News extends Component {
         Math.ceil(this.state.totalResults / this.props.pagesize)
       )
     ) {
-      let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d5e2b8f1b0ce4453b044adbf6c803f6e&page=${
+      let url = `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d5e2b8f1b0ce4453b044adbf6c803f6e&page=${
+
+
+        // let url = `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?...`;
+
+
+
         this.state.page + 1
       }&pagesize=${this.props.pagesize}`;
       this.setState({ loading: true });
